@@ -12,6 +12,14 @@ public class MobilePhone {
         setModel(model);
         setPhoneNumber(phoneNumber);
         setStorageCapacity(storageCapacity);
+
+        // Alternatively I could have used "this" keyword to set variables.
+        // I felt using the setters provided more readability.
+
+        // this.brand = brand;
+        // this.model = model;
+        // this.phoneNumber = phoneNumber;
+        // this.storageCapacity = storageCapacity;
     }
 
     // SETTERS
